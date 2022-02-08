@@ -1,0 +1,118 @@
+/*** BASE STYLES ***/
+body {
+  font-family: "Montserrat";
+  color: #2b2b2b;
+}
+
+.green {
+  color: #77a466;
+}
+
+/*** ROW ONE ***/
+
+#row-one {
+  display: grid;
+  grid-template-columns: 300px auto;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+#row-one a {
+  text-decoration: none;
+  color: #77a466;
+  margin: 21.44px 8px 0;
+  line-height: 39px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#row-one nav {
+  width: fit-content;
+  margin-left: auto;
+}
+
+/*** ROW TWO ***/
+
+.green-beans {
+  background: url("../img/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  height: 287px;
+  margin: 20px;
+  border: 3px solid #77a466;
+  border-left: none;
+  border-right: none;
+}
+
+#about h2 {
+  margin: 30px auto 30px 22px;
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+#about p {
+  margin: 30px 40px 30px 24px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*** ROW THREE ***/
+
+#row-three {
+  display: grid;
+  grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+  margin: 20px;
+}
+
+#row-three section {
+  border: 2px solid #dedbdc;
+  border-left: none;
+  padding: 30px;
+}
+
+#row-three #contact {
+  border-right: none;
+}
+
+#row-three :first-child {
+  padding-left: 0;
+}
+
+#row-three h3 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#row-three ul {
+  padding: 0;
+}
+
+#row-three ul li {
+  list-style: none;
+}
+
+#row-three ul li a {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+/*** FOOTER ***/
+
+#footer h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  margin: 35px 0;
+}
+
+#footer .green {
+  font-family: "Galada", cursive;
+  text-transform: lowercase;
+  font-weight: 400;
+}
